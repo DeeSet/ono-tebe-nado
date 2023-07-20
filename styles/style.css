@@ -388,7 +388,6 @@
 .about__text {
   grid-column: 2/2;
   display: flex;
-  line-height: normal;
   flex-direction: column;
   justify-content: center;
   align-items: start;
