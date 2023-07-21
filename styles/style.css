@@ -1,3 +1,9 @@
+.body__scale {
+  min-width: 1100px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .header {
   display: flex;
   background-color: #fff;
@@ -130,7 +136,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  white-space: nowrap;
   margin-right: 50px;
   gap: 77px;
   z-index: 2;
@@ -182,7 +187,7 @@
 .card {
   display: flex;
   width: 430px;
-  min-height: 100%;
+  min-height: 450px;
   flex-direction: column;
   justify-content: space-between;
   background-repeat: no-repeat;
@@ -230,18 +235,15 @@
 
 .card__text {
   display: flex;
-  justify-content: center;
   color: #fff;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
   font-size: 20px;
   text-align: start;
-  align-items: center;
   position: relative;
   margin: 30px 40px 50px 40px;
   z-index: 3;
-  flex-direction: column;
 }
 
 .card_type_1 {
@@ -369,5 +371,4 @@
 
 .footer__social-icon {
   height: 47px;
-  max-width: 100%;
 }
