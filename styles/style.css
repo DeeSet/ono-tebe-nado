@@ -50,7 +50,7 @@
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
-  max-width: 100%;
+  max-width: 240px;
 }
 
 .cover {
@@ -348,7 +348,7 @@
 
 .footer__menu {
   align-self: center;
-  padding-bottom: 28px;
+  padding-bottom: 32px;
 }
 
 .footer__menu-list {
